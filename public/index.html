@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>scratch bot - money badger</title>
+    <script type="text/javascript" src='scripts/jquery-3.7.1.min.js'></script>
+    <script type="text/javascript" src='scripts/pythonCalls.js'></script>
+    <script type="text/javascript" src='scripts/frontEndHelpers.js'></script>
+    <link href='css/styles.css' rel='stylesheet' />
+
+</head>
+<body>
+    <div id='ticket_interface'>
+
+    </div>
+
+    <div class='section'>
+        <h3>PROGRAM ACTIONS</h3>
+        <h5>current program: <span id='program'></span></h5>
+        <h5>current ticket: <span id='ticket'></span></h5>
+        <h5>status: <span id='status'></span></h5>
+
+        <div>
+            <button type='button' class='program' id='start'>start</button>
+            <button type='button' class='program' id='pause'>pause</button>
+        </div>
+        <div>
+            <button type='button' class='program' id='stop'>stop / cancel</button>
+        </div>
+    </div>
+
+    <div class='section'>
+        <h3> MANUAL ACTIONS</h3>
+        <div>
+            <button type='button' class='jog manual' id='x1'>x+</button>
+            <button type='button' class='jog manual' id='x-1'>x-</button>
+            <input type='text' id='xdist' value='10' />
+        </div>
+        <div>
+            <button type='button' class='jog manual' id='y1'>y+</button>
+            <button type='button' class='jog manual' id='y-1'>y-</button>
+            <input type='text' id='ydist' value='10' />
+        </div>
+        <div>
+            <button type='button' class='jog manual' id='z1'>z+</button>
+            <button type='button' class='jog manual' id='z-1'>z-</button>
+            <input type='text' id='zdist' value='10' />
+        </div>
+        <div>
+            <button type='button' class='manual' id='tryHome'>try to go home</button>
+        </div>
+        <div>
+            <button type='button' class='manual' id='motorToggle'>motor on/off</button>
+        </div>
+         <div>
+            <button type='button' class='manual' id='resetZero'>reset zero</button>
+        </div>
+    </div>
+
+
+       
+    
+    <div class='section'>
+        <h3>SETTINGS</h3>
+        <table id='settings'>
+           
+             
+        </table>
+        <br />
+        <button type='button' id='submit'>submit changes</button>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            getSettingsData();
+        })
+
+        $('#submit').click(function(){
+            updateSettings();
+        })
+    </script>
+</body>
+</html>

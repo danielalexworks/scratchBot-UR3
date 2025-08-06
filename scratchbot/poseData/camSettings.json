@@ -1,0 +1,9 @@
+{
+    "stepsFromBack": 1625000,
+    "totalSteps": 4154841,
+    "stepsFromFront": 2529841,
+    "ticketTop": 1625000,
+    "scaler": 3250,
+    "cameraTicketOffset": 0,
+    "stepDelay": 2
+}

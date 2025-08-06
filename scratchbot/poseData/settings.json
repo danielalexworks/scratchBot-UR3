@@ -1,0 +1,243 @@
+{
+    "scratchData": {
+        "value": "MI6M_ticketBoxes.csv",
+        "type": "select",
+        "options": [
+            "MI6M_ticketBoxes.csv",
+            "TemptestTicket.csv",
+            "testTicket.csv"
+        ]
+    },
+    "scratchOrder": {
+        "value": "scratch by group interruptable",
+        "type": "select",
+        "options": [
+            "random",
+            "scratch by group",
+            "all",
+            "scratch by group interruptable"
+        ]
+    },
+    "alignoffx": {
+        "value": 2.0,
+        "oldvalue": "52",
+        "type": "float"
+    },
+    "alignoffy": {
+        "value": -3.0,
+        "oldvalue": "87",
+        "type": "float"
+    },
+    "zStartOffset": {
+        "value": -2,
+        "oldvalue": -0.5,
+        "type": "float",
+        "shouldbe": 31.1
+    },
+    "adjustx": {
+        "value": 0.0,
+        "oldvalue": 26.2,
+        "type": "float"
+    },
+    "adjusty": {
+        "value": 0,
+        "oldvalue": 48.5,
+        "type": "float"
+    },
+    "acceleration": {
+        "value": 1.0,
+        "type": "float"
+    },
+    "velocity": {
+        "value": 1.0,
+        "type": "float"
+    },
+    "scratchAcceleration": {
+        "value": 1.0,
+        "type": "float"
+    },
+    "scratchVelocity": {
+        "value": 1.0,
+        "type": "float"
+    },
+    "forceScratch": {
+        "value": 250.0,
+        "oldvalue": 28,
+        "type": "float"
+    },
+    "forceWiggleRoom": {
+        "value": 10.0,
+        "oldvalue": 2,
+        "type": "float"
+    },
+    "adjustmentMulti": {
+        "value": 1,
+        "type": "float"
+    },
+    "bitw": {
+        "value": 4,
+        "type": "float"
+    },
+    "passOffset": {
+        "value": 0,
+        "type": "info"
+    },
+    "movementResolution": {
+        "value": 8,
+        "type": "float"
+    },
+    "ip": {
+        "value": "169.254.193.201",
+        "ProArtvalue": "192.168.137.100",
+        "type": "info"
+    },
+    "status": {
+        "value": "in progress",
+        "type": "status"
+    },
+    "filterIds": {
+        "value": "13,45",
+        "type": "string"
+    },
+    "poses": {
+        "value": [
+            "home",
+            "startingPose"
+        ],
+        "type": "buttons"
+    },
+    "ticket_name": {
+        "value": "MI Jackpot",
+        "type": "info"
+    },
+    "ticket_cost": {
+        "value": "50",
+        "type": "info"
+    },
+    "ticket_width": {
+        "value": "100",
+        "type": "info"
+    },
+    "ticket_height": {
+        "value": "280",
+        "type": "info"
+    },
+    "timeMultiplier": {
+        "value": 1.1,
+        "type": "info"
+    },
+    "surfaceNormal": {
+        "value": [
+            0,
+            0,
+            0.9998279543349459
+        ],
+        "type": "info"
+    },
+    "pointOnSurface": {
+        "value": [
+            0.46656472313293174,
+            -0.07892937674554397,
+            0.5052424095303475
+        ],
+        "type": "info"
+    },
+    "threePoints": {
+        "value": [
+            [
+                0.3238190577250809,
+                -0.24866827875727168,
+                0.2719266587792811
+            ],
+            [
+                0.4538804646037194,
+                -0.24866827875727168,
+                0.2743337241274586
+            ],
+            [
+                0.4538804646037194,
+                0.026002941897567397,
+                0.27397824767984713
+            ]
+        ],
+        "type": "info"
+    },
+    "TCPpencil": {
+        "value": "(0, 110/1000, 104/1000 , 0, 0, 0)",
+        "x": 0.0,
+        "y": 110,
+        "z": 104,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "type": "info"
+    },
+    "payloadpencil": {
+        "value": "1, (0, 110/1000, 104/1000)",
+        "weight": 1,
+        "x": 0.0,
+        "y": 110,
+        "z": 104,
+        "type": "info"
+    },
+    "TCPcoin": {
+        "name": "coin",
+        "value": "(0, 0, 151 , 0, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "z": 151,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "type": "info"
+    },
+    "TCP": {
+        "name": "newcoin",
+        "value": "(0, 0, 171 , 0, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "z": 171,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "type": "info"
+    },
+    "payload": {
+        "name": "newcoin",
+        "value": "1, (0, 0, 60/1000)",
+        "weight": 0.21,
+        "x": 0,
+        "y": 0,
+        "z": 60,
+        "type": "info"
+    },
+    "payloadcoin": {
+        "name": "coin",
+        "value": "1, (0, 0, 151/1000)",
+        "weight": 0.11,
+        "x": 0,
+        "y": 0,
+        "z": 61,
+        "type": "info"
+    },
+    "debugging": {
+        "value": 1,
+        "type": "bool"
+    },
+    "bugp": {
+        "value": 1,
+        "type": "bool"
+    },
+    "poweredTool": {
+        "value": 0,
+        "type": "bool"
+    },
+    "activeCamera": {
+        "value": 0,
+        "type": "bool"
+    },
+    "checkForce": {
+        "value": 0,
+        "type": "bool"
+    }
+}

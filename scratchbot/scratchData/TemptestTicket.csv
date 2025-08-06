@@ -1,0 +1,9 @@
+ticket_name,ticket_cost,ticket width,ticket height,,,,,
+MI Jackpot,50,100,280,,,,,
+start x,start  y,w,h,o,scratchGroup,r,c,id
+10,81,14,10,winning #s,0,1,1,1
+24,81,14,10,winning #s,0,1,2,2
+38,81,14,10,winning #s,0,1,3,3
+52,81,14,10,winning #s,0,1,4,4
+66,81,14,10,winning #s,0,1,5,5
+80,81,14,10,winning #s,0,1,6,6
