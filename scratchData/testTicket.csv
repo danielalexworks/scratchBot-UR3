@@ -1,3 +1,5 @@
+ticket_name,ticket_cost,ticket width,ticket height,,,,,
+Test Ticket,50,100,280,,,,,
 start x,start  y,w,h,o,scratchGroup,r,c,id
 9,50,13,20,top row,3,0,1,1
 24,79,14,12,winning #s,0,1,2,2
